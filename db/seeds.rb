@@ -11,7 +11,7 @@ molly_song.save
 
 larkin_song = Song.new(title: "Clucking for Cheese")
 larkin = larkin_song.build_artist(name: "Larkin")
-larkin.save
+larkin_song.save
 
 new_larkin_song = Song.new(title: "Pecking for Feed")
 larkin.songs << new_larkin_song
