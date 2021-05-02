@@ -5,4 +5,3 @@ class Song < ActiveRecord::Base
     self.artist.name
   end
 end
-
